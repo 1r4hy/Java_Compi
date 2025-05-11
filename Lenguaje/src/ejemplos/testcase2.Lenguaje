@@ -1,0 +1,6 @@
+programa ejemplo2 ;
+var y : float ;
+main {
+    y = 3.14 ;
+    print (y) ;
+} end

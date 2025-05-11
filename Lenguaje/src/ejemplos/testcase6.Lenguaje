@@ -1,0 +1,7 @@
+programa ejemplo6 ;
+func void saludar () [ {
+    print ("Hola desde la función") ;
+} ] ;
+main {
+    saludar () ;
+} end

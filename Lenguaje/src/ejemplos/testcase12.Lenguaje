@@ -1,0 +1,8 @@
+programa ejemplo12 ;
+var cadena1 : str ;
+var cadena2 : str ;
+main {
+    cadena1 = "Hola " ;
+    cadena2 = "Mundo" ;
+    print (cadena1 + cadena2) ;
+} end

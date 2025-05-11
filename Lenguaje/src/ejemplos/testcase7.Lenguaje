@@ -1,0 +1,10 @@
+programa ejemplo7 ;
+func void sumar (a : int , b : int) [
+    var resultado : int ;
+    {
+        resultado = a + b ;
+        print (resultado) ;
+    } ] ;
+main {
+    sumar (5 , 3) ;
+} end

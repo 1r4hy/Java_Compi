@@ -1,0 +1,9 @@
+programa ejemplo13 ;
+var val1 : int ;
+main {
+    if (val1 > 0) {
+        print ("Positivo") ;
+    } else {
+        print ("No positivo") ;
+    } ;
+} end

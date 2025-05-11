@@ -1,0 +1,8 @@
+programa ejemplo15 ;
+func void test (a : int) [ {
+    print (a) ;
+} ] ;
+main {
+    test (10) ;
+    test (3.14) ;
+} end

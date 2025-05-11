@@ -1,0 +1,8 @@
+programa ejemplo5 ;
+var c : int ;
+var d : float ;
+main {
+    d = 2.71 ;
+    c = d ;
+    print (c) ;
+} end

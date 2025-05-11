@@ -1,0 +1,6 @@
+programa ejemplo1 ;
+var x : int ;
+main {
+    x = 10 ;
+    print (x) ;
+} end

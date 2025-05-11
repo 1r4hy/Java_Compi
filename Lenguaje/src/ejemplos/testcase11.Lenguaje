@@ -1,0 +1,11 @@
+programa ejemplo11 ;
+var decimal1 : float ;
+var decimal2 : float ;
+main {
+    decimal1 = 7.5 ;
+    decimal2 = 2.0 ;
+    print (decimal1 + decimal2) ;
+    print (decimal1 - decimal2) ;
+    print (decimal1 * decimal2) ;
+    print (decimal1 / decimal2) ;
+} end

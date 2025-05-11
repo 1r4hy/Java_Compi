@@ -1,0 +1,8 @@
+programa ejemplo8 ;
+var flag : int ;
+main {
+    flag = 1 ;
+    if (flag == 1) {
+        print ("Verdadero") ;
+    } ;
+} end

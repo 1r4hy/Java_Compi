@@ -1,0 +1,6 @@
+programa ejemplo3 ;
+var s : str ;
+main {
+    s = "hola" ;
+    print (s) ;
+} end

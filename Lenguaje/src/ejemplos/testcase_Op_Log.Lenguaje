@@ -1,0 +1,20 @@
+programa EjemploLogicos;
+
+var a, b, c : int;
+var resultado : str;
+
+main {
+    a = 10;
+    b = 5;
+    c = 15;
+
+    if (a > b && c > a || b == 5) {
+        resultado = "Verdadero";
+    } else {
+        resultado = "Falso";
+    }
+    print(resultado);
+
+}
+
+end

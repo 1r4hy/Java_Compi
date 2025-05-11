@@ -1,0 +1,53 @@
+programa testCompleto ;
+
+var x : int;
+var y : float;
+var mensaje : str;
+var a : int;
+var val1 : float;
+var val2 : float;
+var contador : int;
+
+func void saludar (nombre : str) [ {
+    print (nombre) ;
+} ] ;
+
+func void nada () [ { } ] ;
+
+main {
+    x = 10 ;
+    y = 3.14 ;
+    mensaje = "Hola" ;
+    print (x) ;
+    print (y , mensaje) ;
+
+    a = 5 ;
+    a = (a + 2) * 3 ;
+    print (a); 
+
+    if (5 > 3) {
+        print ("Verdadero") ;
+    };
+
+    if (2 == 2) {
+        print ("Igual") ;
+    } else {
+        print ("Diferente") ;
+    };
+
+    contador = 0 ;
+    while (contador < 3) do {
+        print (contador) ;
+        contador = contador + 1 ;
+    };
+
+    saludar ("Mundo") ;
+
+    val1 = 7.5 ;
+    val2 = val1 / 2.0 - 1.0 ;
+    print (val2) ;
+
+    print ("Esto es una cadena") ;
+
+    nada () ;
+} end
